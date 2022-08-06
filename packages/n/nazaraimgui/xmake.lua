@@ -1,6 +1,6 @@
 package("nazaraimgui")
 
-	set_kind("library", {headeronly = true})
+	set_kind("library")
 	set_homepage("https://github.com/NazaraEngine")
 	set_description("Imgui integration library for Nazara projects")
 	set_license("MIT")
