@@ -7,7 +7,7 @@ package("nazaraimgui")
 
 	add_urls("https://github.com/SweetId/NazaraImgui.git")
 
-	add_versions("2022.08.06", "6830debf83329e41ffaf7fce4a7b07bf19e341c8")
+	add_versions("2022.08.06", "f6c04bbc7877125b7e4b0efd7210933e8f75fa60")
 
 	on_install(function (package)
 		import("package.tools.xmake").install(package)
