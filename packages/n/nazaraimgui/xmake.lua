@@ -9,7 +9,8 @@ package("nazaraimgui")
 
 	add_versions("2022.08.09", "bf2c81286704b607ee56ead2ef1888ac3c5a3344")
 	
-	add_deps("nazarautils", "nazaraengine", "imgui")
+	add_deps("nazarautils", "nazaraengine")
+	add_deps("imgui v1.87-docking")
 
 	on_install(function (package)
 		import("package.tools.xmake").install(package)
