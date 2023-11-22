@@ -7,7 +7,7 @@ package("nazaraimgui")
 
 	add_urls("https://github.com/SweetId/NazaraImgui.git")
 
-	add_versions("2023.11.21", "e72f1278c62d801d3c6cf02d1d288a120417cf8f")
+	add_versions("2023.11.22", "41c6439b90a6b989a402c2c12e5d06b645086c85")
 	
 	add_deps("nazarautils", "nazaraengine")
 	add_deps("imgui v1.87-docking")
